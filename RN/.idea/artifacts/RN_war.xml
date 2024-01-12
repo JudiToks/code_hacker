@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RN:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>RN</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="RN-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="RN:war exploded" />
+    </root>
+  </artifact>
+</component>
